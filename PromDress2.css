@@ -1,0 +1,37 @@
+/*
+* Krissy Kanu
+* Due Date
+* Project Name and Description */
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body properties here */
+
+body {
+    width: 90%;
+    margin: auto;
+    background-color: floralwhite;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    background-color: pink; /* color for background */
+    color: white; /* color of the text */
+}
+
+p { /* type selector for ALL paragraphs */
+    color: skyblue;
+}
+    
+#darkblueText { /* use an id to change the text to white */
+    color: darkblue;
+}   
+
+.navyText { /* use a class to change text to navy */
+    color: navy;
+}
